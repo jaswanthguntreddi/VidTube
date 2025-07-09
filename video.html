@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video file</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" class="menu" alt="">
+            <img src="images/logo.png" class="logo" class="responsive" alt="">
+        
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search flex-div">
+                <input type="text" placeholder="Search">
+                <img src="images/search.png"  alt="">
+            </div>
+            <img src="images/voice-search.png" class="mic-icon" alt="">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="images/upload.png" alt="">
+            <img src="images/more.png" alt="">
+            <img src="images/notification.png" alt="">
+            <img src="images/Jack.png" class="person" alt=""> 
+        </div>
+    </nav>
+
+    <!----------------main------------>
+    <div class="container play-container">
+        <div class="row">
+            <div class="play-video">
+                <video id="video-player" controls autoplay>
+                    <source id="video-source" src="" type="video/mp4">
+                </video>
+                <div class="tags">
+                    <a href="">#Coding</a>
+                    <a href="">#HTML</a>
+                    <a href="">#CSS</a>
+                    <a href="">#java Script</a>
+                </div>
+                <h3 id="video-title"></h3>
+                <div class="play-video-info">
+                    <p>1225 Views &bull;1 day ago</p>
+                    <div class="like">
+                        <a href=""><img src="images/like.png" alt="">125</a>
+                        <a href=""><img src="images/dislike.png" alt="">2</a>
+                        <a href=""><img src="images/share.png">share</a>
+                        <a href=""><img src="images/save.png" alt="">save</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="publisher">
+                    <img id="videochannellogo" src="images/Jack.png" alt="">
+                    <div>
+                        <p id="videochannelname">Great Stack</p>
+                        <span>500k subscribers</span>
+                    </div>
+                    <button type="button">Subscribe</button>
+                </div>
+                <div class="vid-description">
+                    <p>Channel that makes learning easy.</p>
+                    <p>Subscribe Easy Turorials to watch more tutorials on web development.</p>
+                    <hr>
+                    <div class="comments">
+                        <p class="c">134 comments</p>
+                        <div>
+                            <img src="images/logo8.jpg" alt="">
+                            <input type="text" placeholder="Write comments....">
+                        </div>
+                    </div>
+                    <!-----oldccomments------>
+                    <div class="old-comments">
+                        <img src="images/logo6.jpg" alt="">
+                        <div>
+                            <h3>@jaswanth <span>2days ago</span></h3>
+                            <p>That's what you can't do, it's to move to the center of h1 using text align. It is better to wrap 
+                                the text separately in a block, and set it from the parent block margin 0 auto; And add the text style separately.
+                            </p>
+                            <div class="acomment-action">
+                                <img src="images/like.png">
+                                <span>244</span>
+                                <img src="images/dislike.png" alt="">
+                                <span>2</span>
+                                <span>REPLY</span>
+                                <a href="">All Replies</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="old-comments">
+                        <img src="images/logo2.jpg" alt="">
+                        <div>
+                            <h3>@chandu <span>2days ago</span></h3>
+                            <p>Can you explain all the steps of creating it instead of just showing some part of the code? the title
+                                  says how to make animated login form but you dont really show it dont you think?.
+                            </p>
+                            <div class="acomment-action">
+                                <img src="images/like.png">
+                                <span>1001</span>
+                                <img src="images/dislike.png" alt="">
+                                <span>5</span>
+                                <span>REPLY</span>
+                                <a href="">All Replies</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="old-comments">
+                        <img src="images/logo7.jpg" alt="">
+                        <div>
+                            <h3>@laxmi <span>2days ago</span></h3>
+                            <p>Everything about this video was BEAUTIFUL! the color-elements harmony, 
+                                music, the neat code and the 'simple' yet spectacular final result. Thank you!.
+                            </p>
+                            <div class="acomment-action">
+                                <img src="images/like.png">
+                                <span>744</span>
+                                <img src="images/dislike.png" alt="">
+                                <span>10</span>
+                                <span>REPLY</span>
+                                <a href="">All Replies</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>  
+            <div class="right-sidebar">
+                <div class="side-video-list">
+                    <a href="video.html?video=images/video2.mp4&logo=images/logo7.jpg&channelname=MrBeast&title=Ages 1 - 100 Decide Who Wins $250,000.. " class="small-thumbnail"><img src="images/thumbnail20.jpg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="">Ages 1 - 100 Decide Who Wins $250,000..</a>
+                        <p>MrBeast</p>
+                        <p>46M Views &bull; 2 months ago</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="video.html?video=images/video3.mp4&logo=images/logo10.jpg&channelname=Prasadtechintelugu&title=cmf Phone 1 VS moto g85 || Which one is better ? || in Telugu.." class="small-thumbnail"><img src="images/thumbnail9.jpg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="">cmf Phone 1 VS moto g85 || Which one is better ? || in Telugu..</a>
+                        <p>Prasadtechintelugu
+                            </p>
+                        <p>80.2k Views &bull; 18 hours ago</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="video.html?video=images/video4.mp4&logo=images/mkd.jpeg&channelname=Marques Brownlee&title=iOS 18 Hands-On: Top 5 Features!.." class="small-thumbnail"><img src="images/thumbnail11.jpg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="">iOS 18 Hands-On: Top 5 Features!..</a>
+                        <p>Marques Brownlee</p>
+                        <p> 2M Views &bull; 3 days ago</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="video.html?video=images/video5.mp4&logo=images/unnamed.jpg&channelname=Varun Mayya&title=Sundar Pichai’s advice for Indian Engineers, AI and India, Wrapper Startups ..." class="small-thumbnail"><img src="images/thumbnail13.jpg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="">Sundar Pichai’s advice for Indian Engineers, AI and India, Wrapper Startups ...</a>
+                        <p>Varun Mayya</p>
+                        <p>1.5M Views &bull; 5 days ago</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="video.html?video=images/video6.mp4&logo=images/aditya.jpg&channelname=Aditya Music&title=Maar Muntha Chod Chinta Lyrical | Double ISMART | Ram Pothineni | Puri Jagannadh ...." class="small-thumbnail"><img src="images/thumbnail14.jpg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="">Maar Muntha Chod Chinta Lyrical | Double ISMART | Ram Pothineni | Puri Jagannadh ....</a>
+                        <p>Aditya Music</p>
+                        <p>8M Views &bull; 1 days ago</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="video.html?video=images/video7.mp4&logo=images/logo5.jpg&channelname=Sahil & Sarra&title=I tried 50 Programming Courses. Here are Top 5..." class="small-thumbnail"><img src="images/thumbnail16.png" alt=""></a>
+                    <div class="vid-info">
+                        <a href="">I tried 50 Programming Courses. Here are Top 5.</a>
+                        <p>Sahil & Sarra</p>
+                        <p>2.1M Views &bull; 11 months ago</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="video.html?video=images/video8.mp4&logo=images/logo2.jpg&channelname=Brown Tech Daddy&title=A Day in the Life of a Microsoft Software Engineer | Seattle.." class="small-thumbnail"><img src="images/thumbnail15.webp" alt=""></a>
+                    <div class="vid-info">
+                        <a href="">A Day in the Life of a Microsoft Software Engineer | Seattle.</a>
+                        <p>Brown Tech Daddy</p>
+                        <p>3M Views &bull; 3 hours ago</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="video.html?video=images/video9.mp4&logo=images/logo9.jpg&channelname=Unq Gaming&title=Chained Together Funny Moments Part 5." class="small-thumbnail"><img src="images/thumbnail22.jpg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="">Chained Together Funny Moments Part 5.</a>
+                        <p>Unq Gaming</p>
+                        <p>15k Views &bull; 1 hours ago</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="video.html?video=images/video10.mp4&logo=images/logo4.jpg&channelname=aha videoIN&title=Bahubali Episode Part 1 | Prabhas phone call with Ramcharan | Prabhas & Ramcharan...." class="small-thumbnail"><img src="images/thumbnail18.jpg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="">Bahubali Episode Part 1 | Prabhas phone call with Ramcharan | Prabhas & Ramcharan....</a>
+                        <p>aha videoIN</p>
+                        <p>3.8M Views &bull; 1 year ago</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="video.html?video=images/video11.mp4&logo=images/logo6.jpg&channelname=Mouli Talks &title=Every Movie Trailer Uploading Guy Ft. RRR ..." class="small-thumbnail"><img src="images/thumbnail19.jpg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="">Every Movie Trailer Uploading Guy Ft. RRR ...</a>
+                        <p>Mouli Talks </p>
+                        <p>512k Views &bull; 9 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html> 
